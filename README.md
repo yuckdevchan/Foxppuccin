@@ -3,6 +3,6 @@ Stonch &amp; Steadfast, Firefox murky grey colour, style and functional layout f
 Currently supported programs:
 - Firefox (no changes needed currently)
 - Polybar
-- Rofi (wip)
+- Rofi
 - GTK+ (wip)
 - Kitty
