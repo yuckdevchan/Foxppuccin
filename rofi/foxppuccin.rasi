@@ -1,0 +1,98 @@
+* {
+    bg-col:  #383C4A;
+    bg-col-light: #383C4A;
+    border-col: #383C4A;
+    selected-col: #FFFFFF;
+    blue: #2B2A33;
+    fg-col: #FFFFFF;
+    fg-col2: #FFFFFF;
+    grey: #FFFFFF;
+
+    width: 700;
+    font: "Hurmit Nerd Font medium 12";
+}
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       #b3b1b1;
+}
+
+window {
+    height: 560px;
+    border: 3px;
+    border-color: @border-col;
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [prompt,entry];
+    background-color: @bg-col;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+prompt {
+    background-color: @blue;
+    padding: 6px;
+    text-color: #c2c0c0;
+    border-radius: 3px;
+    margin: 20px 0px 0px 20px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding: 6px;
+    margin: 20px 0px 0px 10px;
+    text-color: #c2c0c0;
+    background-color: @bg-col;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+    margin: 10px 0px 0px 20px;
+    columns: 2;
+    lines: 5;
+    background-color: @bg-col;
+}
+
+element {
+    padding: 5px;
+    background-color: @bg-col;
+    text-color: @fg-col  ;
+}
+
+element-icon {
+    size: 25px;
+}
+
+element selected {
+    background-color:  @blue ;
+    text-color: @bg-col  ;
+    border-radius: 3px;
+}
+
+mode-switcher {
+    spacing: 0;
+  }
+
+button {
+    padding: 4px;
+    background-color: @bg-col-light;
+    text-color: #c2c0c0;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
+}
+
+button selected {
+  background-color: @blue;
+  text-color: #c2c0c0;
+}
